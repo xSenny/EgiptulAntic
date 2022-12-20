@@ -124,4 +124,10 @@ body{
     .navbar a{
         font-size: 15px;
     }
+    .imagineInceput{
+        height: 200px;
+    }
+    .navbar{
+        opacity: 0;
+    }
 }
