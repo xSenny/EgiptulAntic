@@ -1,0 +1,127 @@
+body{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(219, 213, 42, 0.493);
+    scroll-behavior: smooth;
+}
+.navbar a:hover{
+    color: rgb(24, 189, 87);
+}
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: auto;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.title{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 50px;
+    color: black;
+}
+.navbar {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content :space-evenly;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+}
+.imagineInceput{
+    margin-top: 10px;
+    height: 600px;
+    border: solid 10px gray;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.religia,
+.istoria,
+.guvernare,
+.economie,
+.cultura,
+.medicina,
+.autori{
+    border-radius: 10px;
+    border: solid 3px gray;
+    margin: 60px 30px 0px 30px;
+    padding: 0 30px;
+    background-color: rgba(177, 123, 43, 0.308);
+}
+.istoria{
+    background-color: rgba(129, 201, 34, 0.308);
+}
+.guvernare{
+    background-color: rgba(107, 66, 202, 0.308);
+}
+.economie{
+    background-color: rgba(35, 101, 189, 0.308);
+}
+.cultura{
+    background-color: rgba(199, 100, 60, 0.308);
+}
+.medicina{
+    background-color: rgba(26, 51, 196, 0.308);
+}
+.autori h1{
+    text-align: center;
+}
+.autori p{
+    text-align: center;
+    color:rgb(52, 25, 170);
+    font-size: large;
+    font-weight: 800;
+}
+.religia p,
+.istoria p,
+.guvernare p,
+.economie p,
+.cultura p,
+.medicina p{
+    font-size: 30px;
+    line-height: 60px;
+}
+.religia h1,
+.istoria h1,
+.guvernare h1,
+.economie h1,
+.cultura h1,
+.medicina h1{
+    text-align: center;
+}
+.religia img,
+.istoria img,
+.guvernare img,
+.economie img,
+.cultura img,
+.medicina img{
+    border-radius: 10px;
+}
+.guvernare img{
+    height: 600px;
+}
+.cultura img {
+    height: 500px;
+}
+@media (max-width: 1300px){
+    .religia img{
+        height: 200px;
+    }
+    .istoria img{
+        height: 500px;
+    }
+    .guvernare img{
+        height: 400px;
+    }
+    .navbar a{
+        font-size: 15px;
+    }
+}
