@@ -2,7 +2,10 @@ body{
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(219, 213, 42, 0.493);
+}
+html{
     scroll-behavior: smooth;
+
 }
 .navbar a:hover{
     color: rgb(24, 189, 87);
